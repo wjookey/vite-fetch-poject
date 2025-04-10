@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/cat.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <script src="src/main.js" defer></script>
+    <link rel="stylesheet" href="src/style.css">
+  </head>
+  <body class="body">
+    <header class="header">
+        <h1 class="logo">CATS</h1>
+        <nav class="menu">
+            <ul class="menu-list">
+                <li class="list-item"><a class="link" href="#breedBlockHeader">Breeds</a></li>
+                <li class="list-item"><a class="link" href="#breedGameHeader">Game</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main" class="main container">
+        <h2 id="breedBlockHeader" class="breedBlockHeader">What's cat breed you want to figure out about?</h2>
+        <div id="breedBlock" class="breedBlock">
+            <select id="breedSelect" class="breedSelect">
+                <option value="">Choose breed</option>
+            </select>
+
+            <div id="breedInfo" class="breedInfo">
+
+            </div>
+        </div>
+
+        <h2 id="breedGameHeader" class="breedGameHeader">Can you guess what the breed is on photo?</h2>
+        <div id="breedGame" class="breedGame">
+            <h3 class="gameTask">Now you'll see a picture of a cat. You have to define what's the breed it has.</h3>
+            <button id="showPhoto" class="showPhoto">Show new photo</button>
+            <div id="quizPart" class="quizPart"></div>
+        </div>
+    </main>
+    
+    <footer class="footer">
+        <p>Я не придумала, что тут написать, поэтому просто добра улыбок и тд и тп</p>
+    </footer>
+
+</body>
+</html>
